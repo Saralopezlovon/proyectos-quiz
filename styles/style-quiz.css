@@ -1,0 +1,43 @@
+
+body{
+	border: 1px solid red;
+	display:flex;
+	justify-content: center;
+}
+
+.body-container{
+	margin-top: 40px;
+	padding-top: 40px;
+	border: 1px solid blue;
+	width: 900px;
+
+}
+
+/* Título */
+
+form{
+	border: 1px solid green;	
+}
+
+legend{
+	border: 1px solid brown;
+	font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+
+}
+
+/* Contenedor respuestas */
+
+fieldset{
+	border: 1px solid purple;
+	width: 800px;
+
+
+}
+
+.buttom-next1{
+	display:none;
+}
+
+
