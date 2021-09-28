@@ -23,7 +23,7 @@ const valida= (e) => {
 
     }else if(option3.checked) {
         
-        alert("Has acertado")
+        alert("¡¡¡ Has acertado !!!")
         next.style.display= "flex"        
 
 
@@ -36,19 +36,3 @@ const valida= (e) => {
 
 submit.addEventListener("click", valida)
 
-// const arrayParrafosNew = document.getElementsByTagName('p');
-
-// for (let i = 0; i < arrayParrafosNew.length; i++) {
-//     arrayParrafosNew[i].addEventListener('mouseover', function(event) { 
-//     arrayParrafosNew[i].style.color="pink";
-//     arrayParrafosNew[i].style.backgroundColor="purple"
-//     });
-
-//     arrayParrafosNew[i].addEventListener('mouseleave', function(event) { 
-//     arrayParrafosNew[i].style.color="black";
-//     arrayParrafosNew[i].style.backgroundColor="white"
-//     });
-
-// }
-
-// valida_envia()
