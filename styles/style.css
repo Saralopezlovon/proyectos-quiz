@@ -1,0 +1,245 @@
+
+/* Global */
+body{
+    background-image: url("../assets/images/periodico.jpg");
+    background-size: contain;
+}
+.body-container{
+    width: 1100px;
+    height: 3080px;
+    border: 1px solid; 
+    padding: 0px 18px 0px 18px;
+    justify-items: center;
+    margin:5px auto;
+    font-size: 17px; 
+    background-color: whitesmoke; 
+}
+
+/* Header titulo */
+
+header{
+    width: 100%;
+}
+
+header h1{
+    margin:0px;
+    padding-top: 30px;
+    /* background-color: aqua; */
+    font-family: 'Special Elite';
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+/* Sección 1 */
+
+.section1{
+    /* border: 2px solid yellow; */
+    width: 730px;
+    position: relative;
+    top: 5px;
+    left: 365px;
+    
+}
+
+.exorcismo-img{
+    width: 720px;
+    height: 450px;
+    /* border: 2px solid grey;     */
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 2px;
+    
+    
+}
+
+.section1 h1{
+    /* background-color: royalblue; */
+    padding-top: 0px;     
+    margin:2px; 
+    padding: 5px;   
+}
+
+.section1-container{
+    /* border: 2px solid violet; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+/* Sección 2 */
+
+.section2{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    position: relative;
+    top: -1045px;
+}
+
+.mono-img{
+    width: 350px;
+    height: 200px;
+    /* border: 2px solid brown;     */
+    margin: 0px;
+    position: relative;
+    left: -9px;
+}
+
+.section2 h1{
+    /* background-color: aqua; */
+    padding-top: 0px;
+    display:flex;  
+    margin:2px;    
+}
+
+.section2-container{
+    /* border: 2px solid black; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+/* Sección 3 */
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    position: relative;
+    top: -1095px;
+}
+
+.noel-img{
+    width: 350px;
+    height: 200px;
+    /* border: 2px solid yellow;     */
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: -9px;
+}
+
+.section3 h1{
+    /* background-color: aqua; */
+    padding-top: 0px;     
+    margin:2px;    
+}
+
+.section3-container{
+    /* border: 2px solid purple; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+/* Sección 4 */
+
+.section4{
+    /* border: 2px solid blueviolet; */
+    width: 730px;
+    position: relative;
+    top: -2211px;
+    left: 365px;
+    
+}
+
+.planta-img{
+    width: 720px;
+    height: 450px;
+    /* border: 2px solid pink;     */
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 2px;
+    
+    
+}
+
+.section4 h1{
+    /* background-color: lightcoral; */
+    padding-top: 0px;     
+    margin:2px; 
+    padding: 5px;   
+}
+
+.section4-container{
+    /* border: 2px solid navy; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+/* Sección 5 */
+
+.section5{
+    /* border: 2px solid yellow; */
+    width: 730px;
+    position: relative;
+    top: -2252px;
+    left: 365px;
+    
+}
+
+.unicornio-img{
+    width: 720px;
+    height: 450px;
+    /* border: 2px solid grey;     */
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 2px;
+    
+    
+}
+
+.section5 h1{
+    /* background-color: royalblue; */
+    padding-top: 0px;     
+    margin:2px; 
+    padding: 5px;   
+}
+
+.section5-container{
+    /* border: 2px solid violet; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+footer{
+   border-top: 1px solid rgb(65, 64, 64); 
+    /* background-color: thistle; */
+    position: relative;
+    top:-2200px;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+li{
+/* background-color: tomato; */
+text-decoration: none;
+list-style: none;
+margin-top: 15px;
+margin-bottom: 5px;
+font-family: 'Special Elite';
+}
