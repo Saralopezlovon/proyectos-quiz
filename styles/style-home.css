@@ -6,7 +6,7 @@ body{
 }
 
 img{
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 60px;
     width: 500px;
 }
@@ -15,6 +15,35 @@ h1{
     color:white;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-	font-size: 90px;
+	font-size: 200px;
     padding-left: 240px;
+}
+
+.btn-container{
+    border:1px solid #FFC500;
+    background-color: #FFC500;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+
+}
+
+.btn-container:hover{
+    border:1px solid #00FE06;
+    background-color: #00FE06;
+    
+
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
 }
