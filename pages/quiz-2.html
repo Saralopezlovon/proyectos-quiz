@@ -1,41 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../styles/style-quiz.css">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <script defer src="../scripts/quiz2.js"></script>
+
     <title>Quiz2</title>
+
 </head>
+
 <body>
-    <form action="post">
+    <div class="body-container">
 
-        <legend class="second-question">¿Cuál es la frase más famosa del personaje de Darth Vader?</legend>
+        <form>
 
-        <fieldset>
+            <legend class="first-question">¿Cuál es la frase más famosa del personaje de Darth Vader?</legend>
 
-            <input type="radio" id="option1" name="frase" value="almirante">
-            <label for="option1">“Me ha fallado por última vez, almirante”</label>
+            <fieldset class="input-container">
+
+                <div class="container-option1">
+
+                    <input type="radio" class="radiobtn" id="option1" name="frase" value="almirante">                
+                    <label for="option1">“Me ha fallado por última vez, almirante”</label> 
+
+                </div>         
+
+                <div class="container-option2">
+
+                    <input type="radio" class="radiobtn" id="option2" name="frase" value="fe">
+                    <label for="option2">"Su falta de fe me resulta perturbadora”</label> 
+
+                </div>
+
+                <div class="container-option3">
+                    <input type="radio" class="radiobtn" id="option3" name="frase" value="nombre">
+                    <label for="option3">“Ese nombre ya no significa nada para mí”</label>
+                </div>
+
+                <div class="container-option4">
+                    <input type="radio" class="radiobtn" id="option4" name="frase" value="oscuro">
+                    <label for="option4">“No conoces el poder del lado oscuro”</label>
+                </div>
+  
+
+            </fieldset>
+
+            <button id= "comprobar"class="comprobar" type="submit"> 
+                Comprobar solución
+            </button>     
         
-            <input type="radio" id="option2" name="frase" value="fe">
-            <label for="option2">"Su falta de fe me resulta perturbadora”</label>
-
-            <input type="radio" id="option3" name="frase" value="nombre">
-            <label for="option3">“Ese nombre ya no significa nada para mí”</label>
         
-            <input type="radio" id="option4" name="frase" value="oscuro">
-            <label for="option4">“No conoces el poder del lado oscuro”</label>
-            
+        </form>
 
-        </fieldset>
+    
+        <div class="buttom-next1-container">
+        <a id= "buttom-next1" class="buttom-next1" onclick href="quiz-3.html" >Siguiente</a>
+        </div>   
+        
+    
 
-        <button type="submit">Comprobar datos</button>
- 
-    </form>
-
-    <a class="link-next" href="quiz-3.html">
-        <button class="buttom-next">Siguiente</button>
-    </a> 
-
+    </div>
 </body>
 </html>
+
+            
+   

@@ -1,0 +1,25 @@
+body{
+    background-image: url('../assets/images/fondo-final.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display:flex;
+    justify-content: end;
+    text-align: end;
+}
+
+img{
+    margin-top: 90px;
+    margin-right: 112px;
+    width: 500px;
+}
+
+h1{
+    color:#1D0C06;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 200px;
+    padding-right: 100px;
+   
+}
+

@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../styles/style-quiz.css">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <script defer src="../scripts/quiz5.js"></script>
+
     <title>Quiz5</title>
+
 </head>
+
 <body>
-    <form action="post">
+    <div class="body-container">
 
-        <legend class="first-question">¿En qué año se estrenó la primera película de la saga?</legend>
+        <form>
 
-        <fieldset>
+            <legend class="first-question">¿Cómo se llama el planeta de origen del maestro Yoda?</legend>
 
-            <input type="radio" id="option1" name="año" value="1965">
-            <label for="option1">En 1965</label>
+            <fieldset class="input-container">
+
+                <div class="container-option1">
+
+                    <input type="radio" class="radiobtn" id="option1" name="apellido-luke" value="Hoth">                
+                    <label for="option1">Hoth</label> 
+
+                </div>         
+
+                <div class="container-option2">
+
+                    <input type="radio" class="radiobtn" id="option2" name="apellido-luke" value="Tatooine">
+                    <label for="option2">Tatooine</label> 
+
+                </div>
+
+                <div class="container-option3">
+                    <input type="radio" class="radiobtn" id="option3" name="apellido-luke" value="Dagobah">
+                    <label for="option3">Dagobah</label>
+                </div>
+
+                <div class="container-option4">
+                    <input type="radio" class="radiobtn" id="option4" name="apellido-luke" value="Naboo">
+                    <label for="option4">Naboo</label>
+                </div>
+  
+
+            </fieldset>
+
+            <button id= "comprobar"class="comprobar" type="submit"> 
+                Comprobar solución
+            </button>     
         
-            <input type="radio" id="option2" name="año" value="1968"> 
-            <label for="option2">En 1968</label>
-
-            <input type="radio" id="option3" name="año" value="1977">
-            <label for="option3">En 1977</label>
         
-            <input type="radio" id="option4" name="año" value="1979">
-            <label for="option4">En 1979</label>
+        </form>
 
-        </fieldset>
+    
+        <div class="buttom-next1-container">
+        <a id= "buttom-next1" class="buttom-next1" onclick href="final.html" >Siguiente</a>
+        </div>   
+        
+    
 
-        <button type="submit">Comprobar datos</button>
-
-    </form>
-
-    <a class="link-next" href="quiz-2.html">
-        <button class="buttom-next">Siguiente</button>
-    </a> 
-
-
+    </div>
 </body>
 </html>
+
+    
